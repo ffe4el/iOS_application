@@ -1,4 +1,5 @@
 //
+
 //  iOS_Getting_StartedApp.swift
 //  iOS Getting Started
 //
@@ -7,6 +8,9 @@
 
 import SwiftUI
 
+import UIKit
+import Amplify
+
 @main
 struct iOS_Getting_StartedApp: App {
     var body: some Scene {
@@ -14,4 +18,11 @@ struct iOS_Getting_StartedApp: App {
             ContentView()
         }
     }
+    init() {
+        _=Backend.initialize()
+    }
 }
+
+
+
+

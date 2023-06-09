@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3C39762A3350AE006C8ADB /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = FF3C39752A3350AE006C8ADB /* AWSCognitoAuthPlugin */; };
+		FF3C39782A335AD2006C8ADB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C39772A335AD2006C8ADB /* Note.swift */; };
 		FF6EF4ED2A32F2C4004C0BAB /* iOS_Getting_StartedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EF4EC2A32F2C4004C0BAB /* iOS_Getting_StartedApp.swift */; };
 		FF6EF4EF2A32F2C4004C0BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EF4EE2A32F2C4004C0BAB /* ContentView.swift */; };
 		FF6EF4F12A32F2C6004C0BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6EF4F02A32F2C6004C0BAB /* Assets.xcassets */; };
 		FF6EF4F42A32F2C6004C0BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6EF4F32A32F2C6004C0BAB /* Preview Assets.xcassets */; };
-		FF6EF4FB2A32F35F004C0BAB /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EF4FA2A32F35F004C0BAB /* Node.swift */; };
 		FF6EF4FD2A32F3D4004C0BAB /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EF4FC2A32F3D4004C0BAB /* UserData.swift */; };
+		FF6EF5002A32FEED004C0BAB /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = FF6EF4FF2A32FEED004C0BAB /* Amplify */; };
+		FF6EF5032A32FF5A004C0BAB /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FF6EF5012A32FF59004C0BAB /* amplifyconfiguration.json */; };
+		FF6EF5042A32FF5A004C0BAB /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = FF6EF5022A32FF59004C0BAB /* awsconfiguration.json */; };
+		FF6EF5062A32FF77004C0BAB /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EF5052A32FF77004C0BAB /* Backend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF3C39772A335AD2006C8ADB /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		FF6EF4E92A32F2C4004C0BAB /* iOS Getting Started.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Getting Started.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6EF4EC2A32F2C4004C0BAB /* iOS_Getting_StartedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Getting_StartedApp.swift; sourceTree = "<group>"; };
 		FF6EF4EE2A32F2C4004C0BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF6EF4F02A32F2C6004C0BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6EF4F32A32F2C6004C0BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF6EF4FA2A32F35F004C0BAB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		FF6EF4FC2A32F3D4004C0BAB /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		FF6EF5012A32FF59004C0BAB /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		FF6EF5022A32FF59004C0BAB /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FF6EF5052A32FF77004C0BAB /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +38,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6EF5002A32FEED004C0BAB /* Amplify in Frameworks */,
+				FF3C39762A3350AE006C8ADB /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF3C39742A3350AE006C8ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF6EF4E02A32F2C4004C0BAB = {
 			isa = PBXGroup;
 			children = (
+				FF6EF5012A32FF59004C0BAB /* amplifyconfiguration.json */,
+				FF6EF5022A32FF59004C0BAB /* awsconfiguration.json */,
 				FF6EF4EB2A32F2C4004C0BAB /* iOS Getting Started */,
 				FF6EF4EA2A32F2C4004C0BAB /* Products */,
+				FF3C39742A3350AE006C8ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				FF6EF4EC2A32F2C4004C0BAB /* iOS_Getting_StartedApp.swift */,
+				FF3C39772A335AD2006C8ADB /* Note.swift */,
 				FF6EF4EE2A32F2C4004C0BAB /* ContentView.swift */,
-				FF6EF4FA2A32F35F004C0BAB /* Node.swift */,
 				FF6EF4FC2A32F3D4004C0BAB /* UserData.swift */,
 				FF6EF4F02A32F2C6004C0BAB /* Assets.xcassets */,
 				FF6EF4F22A32F2C6004C0BAB /* Preview Content */,
@@ -68,6 +88,7 @@
 		FF6EF4F22A32F2C6004C0BAB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FF6EF5052A32FF77004C0BAB /* Backend.swift */,
 				FF6EF4F32A32F2C6004C0BAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -89,6 +110,10 @@
 			dependencies = (
 			);
 			name = "iOS Getting Started";
+			packageProductDependencies = (
+				FF6EF4FF2A32FEED004C0BAB /* Amplify */,
+				FF3C39752A3350AE006C8ADB /* AWSCognitoAuthPlugin */,
+			);
 			productName = "iOS Getting Started";
 			productReference = FF6EF4E92A32F2C4004C0BAB /* iOS Getting Started.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +142,9 @@
 				Base,
 			);
 			mainGroup = FF6EF4E02A32F2C4004C0BAB;
+			packageReferences = (
+				FF6EF4FE2A32FEED004C0BAB /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = FF6EF4EA2A32F2C4004C0BAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,7 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6EF5042A32FF5A004C0BAB /* awsconfiguration.json in Resources */,
 				FF6EF4F42A32F2C6004C0BAB /* Preview Assets.xcassets in Resources */,
+				FF6EF5032A32FF5A004C0BAB /* amplifyconfiguration.json in Resources */,
 				FF6EF4F12A32F2C6004C0BAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6EF4FB2A32F35F004C0BAB /* Node.swift in Sources */,
+				FF3C39782A335AD2006C8ADB /* Note.swift in Sources */,
 				FF6EF4EF2A32F2C4004C0BAB /* ContentView.swift in Sources */,
 				FF6EF4FD2A32F3D4004C0BAB /* UserData.swift in Sources */,
 				FF6EF4ED2A32F2C4004C0BAB /* iOS_Getting_StartedApp.swift in Sources */,
+				FF6EF5062A32FF77004C0BAB /* Backend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +378,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF6EF4FE2A32FEED004C0BAB /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF3C39752A3350AE006C8ADB /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF6EF4FE2A32FEED004C0BAB /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		FF6EF4FF2A32FEED004C0BAB /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF6EF4FE2A32FEED004C0BAB /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF6EF4E12A32F2C4004C0BAB /* Project object */;
 }
