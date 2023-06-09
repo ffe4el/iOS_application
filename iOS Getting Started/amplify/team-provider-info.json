@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iosgettingstarted-dev-151403-authRole",
+      "UnauthRoleArn": "arn:aws:iam::350511293856:role/amplify-iosgettingstarted-dev-151403-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::350511293856:role/amplify-iosgettingstarted-dev-151403-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-iosgettingstarted-dev-151403-deployment",
+      "UnauthRoleName": "amplify-iosgettingstarted-dev-151403-unauthRole",
+      "StackName": "amplify-iosgettingstarted-dev-151403",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:350511293856:stack/amplify-iosgettingstarted-dev-151403/d55a5840-068c-11ee-8b39-068ace45911e",
+      "AmplifyAppId": "dnzxx2hi5unfq"
+    }
+  }
+}
